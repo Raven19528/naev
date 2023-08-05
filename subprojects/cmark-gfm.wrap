@@ -1,0 +1,13 @@
+[wrap-file]
+directory = cmark-gfm-0.29.0.gfm.10
+source_url = https://github.com/github/cmark-gfm/archive/refs/tags/0.29.0.gfm.10.tar.gz
+source_filename = cmark-gfm-0.29.0.gfm.10.tar.gz
+source_hash = 0656ca84ec677b87841f8088184c4b62777de3069bacefa18e621dc18c5d7864
+patch_filename = cmark-gfm_0.29.0.gfm.10-1_patch.zip
+patch_url = https://wrapdb.mesonbuild.com/v2/cmark-gfm_0.29.0.gfm.10-1/get_patch
+patch_hash = f0dd1f8a971eb47f34051367303a7841a8f4e9d60f564150f676e954143af60a
+source_fallback_url = https://github.com/mesonbuild/wrapdb/releases/download/cmark-gfm_0.29.0.gfm.10-1/cmark-gfm-0.29.0.gfm.10.tar.gz
+wrapdb_version = 0.29.0.gfm.10-1
+
+[provide]
+libcmark-gfm = cmark_gfm_dep

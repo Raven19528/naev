@@ -92,6 +92,11 @@ if buildExec.disabled() == false
    sdl_image = dependency('SDL2_image', required: true, fallback: ['sdl2_image', 'sdl2_image_dep'])
    libunibreak = dependency('libunibreak', required: true, version: '>=4.0', fallback: ['libunibreak', 'libunibreak_dep'], static: get_option('steamruntime'))
 
+   cmark_gfm = cc.find_library('cmark-gfm', required: false, has_headers: ['cmark-gfm.h'])
+   if not cmark_gfm.found()
+      cmark_gfm = dependency('cmark-gfm', required: true, version: '>=0.29.0', fallback: ['cmark-gfm', 'cmark_gfm_dep'])
+   endif
+
    libxml2 = dependency('libxml-2.0', required: false)
    if not libxml2.found()
       libxml2 = cc.find_library('xml2', required: true)  # e.g., MacOSX SDK
@@ -108,6 +113,7 @@ if buildExec.disabled() == false
    naev_deps += use_system_physfs ? system_physfs : subproject('physfs').get_variable('physfs_dep')
 
    naev_deps += [
+      cmark_gfm,
       enet,
       dependency('freetype2', required: true),
       libunibreak,
