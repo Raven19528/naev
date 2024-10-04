@@ -1,3 +1,3 @@
 rust_source = files(
-   'src/lib.rs',
+   'lib.rs',
 )
