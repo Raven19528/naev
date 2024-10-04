@@ -5,6 +5,7 @@ project('naev', ['c','rust'],
       'c_std=gnu11',
       'werror=false',
       'warning_level=3',
+      'rust_std=2021',
    ],
    meson_version: '>=1.4.0')
 
@@ -348,6 +349,7 @@ int main (void) { return 0; }''')
 
    nrust_deps = [dependency('colour-2-rs')]
    nrust_deps += [dependency('sdl2-0.37-rs')]
+   #nrust_deps += [dependency('quick-xml-0.36.2-rs')]
    nrust = static_library('naevrust', rust_source, rust_abi: 'c', dependencies: nrust_deps)
    cbindgen = find_program('cbindgen', required : false, native : true)
    nrusth = custom_target(
