@@ -1,3 +1,6 @@
+
+#![allow(unused_doc_comments)]
+
 /// cbindgen:ignore
 extern "C" {
     fn SDL_GetTicks() -> i32;

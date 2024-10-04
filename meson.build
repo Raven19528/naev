@@ -346,9 +346,9 @@ int main (void) { return 0; }''')
    naev_source += colours_source
    naevlua_source += colours_source
 
-   rust = static_library('rust', rust_source, rust_abi: 'c')
+   nrust = static_library('naevrust', rust_source, rust_abi: 'c')
    cbindgen = find_program('cbindgen', required : false, native : true)
-   rusth = custom_target(
+   nrusth = custom_target(
       'generate_rust headers',
       command: [python, '@INPUT@'],
       input : [files('rust/cbindgen.toml'), rust_source],
@@ -358,7 +358,7 @@ int main (void) { return 0; }''')
         '--output', '@OUTPUT0@', '--', '@INPUT1@',
         ],
    )
-   naev_source += rusth
+   naev_source += nrusth
 
    naev_bin = executable(
       'naev',
@@ -366,7 +366,7 @@ int main (void) { return 0; }''')
       include_directories: include_dirs,
       dependencies: naev_deps,
       export_dynamic: get_option('debug'),
-      link_with: rust,
+      link_with: nrust,
       install: true)
    naevlua_bin = executable(
       'naevlua',
@@ -374,7 +374,7 @@ int main (void) { return 0; }''')
       include_directories: include_dirs,
       dependencies: naev_deps,
       export_dynamic: get_option('debug'),
-      link_with: rust,
+      link_with: nrust,
       override_options: ['-DNOMAIN=1'],
       install: false)
 
