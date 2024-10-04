@@ -54,6 +54,7 @@
 #include "menu.h"
 #include "mission.h"
 #include "music.h"
+#include "naevrust.h"
 #include "ndata.h"
 #include "nebula.h"
 #include "news.h"
@@ -169,6 +170,8 @@ int main( int argc, char **argv )
 {
    char   conf_file_path[PATH_MAX], **search_path;
    Uint32 starttime;
+
+   greet();
 
 #ifdef DEBUGGING
    /* Set Debugging flags. */

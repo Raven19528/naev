@@ -347,6 +347,18 @@ int main (void) { return 0; }''')
    naevlua_source += colours_source
 
    rust = static_library('rust', rust_source, rust_abi: 'c')
+   cbindgen = find_program('cbindgen', required : false, native : true)
+   rusth = custom_target(
+      'generate_rust headers',
+      command: [python, '@INPUT@'],
+      input : [files('rust/cbindgen.toml'), rust_source],
+      output : ['naevrust.h'],
+      command : [
+        cbindgen, '-q', '--config', '@INPUT0@', '--lang', 'c',
+        '--output', '@OUTPUT0@', '--', '@INPUT1@',
+        ],
+   )
+   naev_source += rusth
 
    naev_bin = executable(
       'naev',
