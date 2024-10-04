@@ -346,7 +346,7 @@ int main (void) { return 0; }''')
    naev_source += colours_source
    naevlua_source += colours_source
 
-   rust = static_library('rust', rust_source)
+   rust = static_library('rust', rust_source, rust_crate_type: 'staticlib')
 
    naev_bin = executable(
       'naev',
