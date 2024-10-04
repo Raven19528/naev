@@ -13,7 +13,17 @@ fn ticks() -> i32 {
 extern crate colour;
 use colour::*;
 
+extern crate sdl2;
+//use sdl2;
+
 #[no_mangle]
-extern "C" fn greet() {
+extern "C" fn test_sdl() {
+    let sdl = sdl2::init().unwrap();
+    let t = sdl.timer().expect("Timer Failed");
+    green_ln!("{}", sdl2::TimerSubsystem::ticks(&t));
+}
+
+#[no_mangle]
+extern "C" fn test_c() {
     green_ln!("Hello from Rust code! {}", ticks());
 }

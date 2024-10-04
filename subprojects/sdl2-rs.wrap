@@ -1,0 +1,8 @@
+[wrap-file]
+method = cargo
+directory = sdl2-0.37.0
+source_url = https://crates.io/api/v1/crates/sdl2/0.37.0/download
+source_filename = sdl2-0.37.0.tar.gz
+source_hash = 3b498da7d14d1ad6c839729bd4ad6fc11d90a57583605f3b4df2cd709a9cd380
+[provide]
+dependency_names = sdl2-0.37-rs
