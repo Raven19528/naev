@@ -346,7 +346,9 @@ int main (void) { return 0; }''')
    naev_source += colours_source
    naevlua_source += colours_source
 
-   nrust = static_library('naevrust', rust_source, rust_abi: 'c')
+   #nrust_deps = subproject('sdl2-rs')
+   nrust_deps = dependency('colour-2-rs')
+   nrust = static_library('naevrust', rust_source, rust_abi: 'c', dependencies: nrust_deps)
    cbindgen = find_program('cbindgen', required : false, native : true)
    nrusth = custom_target(
       'generate_rust headers',

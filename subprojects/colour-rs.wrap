@@ -1,0 +1,10 @@
+[wrap-file]
+method = cargo
+directory = colour-2.1.0
+source_url = https://crates.io/api/v1/crates/colour/2.1.0/download
+source_filename = colour-2.1.0.tar.gz
+source_hash = b536eebcabe54980476d120a182f7da2268fe02d22575cca99cee5fdda178280
+#package_name = colour
+#version = 2.1.0
+[provide]
+dependency_names = colour-2-rs
