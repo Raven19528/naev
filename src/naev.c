@@ -171,8 +171,6 @@ int main( int argc, char **argv )
    char   conf_file_path[PATH_MAX], **search_path;
    Uint32 starttime;
 
-   greet();
-
 #ifdef DEBUGGING
    /* Set Debugging flags. */
    memset( debug_flags, 0, DEBUG_FLAGS_MAX );
@@ -408,6 +406,9 @@ int main( int argc, char **argv )
 
    /* Unload load screen. */
    loadscreen_unload();
+
+   /* Small rust test. */
+   greet();
 
    /* Start menu. */
    menu_main();
