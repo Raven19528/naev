@@ -1,4 +1,4 @@
-project('naev', 'c',
+project('naev', ['c','rust'],
    version : '0.12.0-alpha.3',
    default_options : [
       'optimization=g',
@@ -46,6 +46,7 @@ summary('NData Path', ndata_path, section: 'Features')
 
 # Subdirs
 subdir('src')
+subdir('rust')
 subdir('dat/outfits/bioship') # Has to be before naevpedia
 subdir('dat/naevpedia')
 subdir('dat/scripts')
@@ -345,12 +346,15 @@ int main (void) { return 0; }''')
    naev_source += colours_source
    naevlua_source += colours_source
 
+   rust = static_library('rust', rust_source)
+
    naev_bin = executable(
       'naev',
       naev_source,
       include_directories: include_dirs,
       dependencies: naev_deps,
       export_dynamic: get_option('debug'),
+      link_with: rust,
       install: true)
    naevlua_bin = executable(
       'naevlua',
@@ -358,6 +362,7 @@ int main (void) { return 0; }''')
       include_directories: include_dirs,
       dependencies: naev_deps,
       export_dynamic: get_option('debug'),
+      link_with: rust,
       override_options: ['-DNOMAIN=1'],
       install: false)
 
