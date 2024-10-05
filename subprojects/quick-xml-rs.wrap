@@ -1,0 +1,8 @@
+[wrap-file]
+method = cargo
+directory = quick-xml-0.36.2
+source_url = https://crates.io/api/v1/crates/quick-xml/0.36.2/download
+source_filename = quick-xml-0.36.2.tar.gz
+source_hash = f7649a7b4df05aed9ea7ec6f628c67c9953a43869b8bc50929569b2999d443fe
+[provide]
+dependency_names = quick-xml-0.36.2-rs

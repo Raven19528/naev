@@ -1,0 +1,8 @@
+[wrap-file]
+method = cargo
+directory = mlua-0.9.9
+source_url = https://crates.io/api/v1/crates/mlua/0.9.9/download
+source_filename = mlua-0.9.9.tar.gz
+source_hash = d111deb18a9c9bd33e1541309f4742523bfab01d276bfa9a27519f6de9c11dc7
+[provide]
+dependency_names = mlua-0.9-rs
