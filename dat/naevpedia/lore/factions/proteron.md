@@ -32,7 +32,7 @@ Despite the lack of freedom and privacy, Proteron citizens were not slaves.
 The government kept them in top shape, providing an adequate supply of health care, relaxation, and entertainment, making sure all predispositions and tastes were catered for.
 This kept citizens happy to trade independence and privacy for comfort and security.
 As such, a subject was often able and willing to work at optimal performance.
-A Proteron citizen's life was thus quite a satisfying one, though excitement otherwise than the terminal kind was rare.
+A Proteron citizen's life was thus quite a satisfying one, though excitement other than the terminal kind was rare.
 
 House Proteron's worlds were all specialist worlds.
 They were geared to performing a limited selection of tasks according to the planet's natural properties or location.
@@ -43,11 +43,11 @@ As such, Proteron society was built of individuals rather than families - a fami
 The local planetary governments were directly responsible to an Autarch.
 An Autarch managed many worlds as a sector, with the number depending on how densely populated and productive the worlds were.
 Once every four cycles all the Proteron Autarchs met in a Circle.
-During these meeting, the Autarchs would evaluate the development of each Proteron world individually as well as that of the greater Proteron body in general.
+During these meetings, the Autarchs would evaluate the development of each Proteron world individually as well as that of the greater Proteron body in general.
 Based on this evaluation, goals were set for the next four cycles.
 Each Autarch was expected to meet or exceed these goals, and those Autarchs who failed to do so were removed from office - in a very permanent manner.
 
-For day-to-day and urgent decisions that could not wait for many cycles, and further to ensure that the Circle did not become complacent, the Proteron also had a High Autarch.
+For period-to-period and urgent decisions that could not wait for many cycles, and further to ensure that the Circle did not become complacent, the Proteron also had a High Autarch.
 They and the Circle were supposed to balance each other's power.
 
 ## History
@@ -60,14 +60,14 @@ The purpose of Project Proteron was to be the test-bed of the "next generation" 
 
 Project Proteron was limited to a few worlds at first, on the basis that a galactic government could only succeed given stable planetary governments.
 Soon, however, the scope of the project expanded as its overseers came to the conclusion that planetary government needed to be designed simultaneously with galaxy-wide administration.
-Within a decade of its inception, the worlds assigned to Project Proteron numbered more than a dozen.
+Within a decacycle of its inception, the worlds assigned to Project Proteron numbered more than a dozen.
 
 [The Empire](lore/factions/empire), eager to see results, continued to push the experiment to work faster and more efficiently.
-As a direct result of this, the more liberal, decentralised processes were eliminated from the test roster, and more emphasis was put on controlled, high-yield social structures.
+As a direct result of this, the more liberal, decentralized processes were eliminated from the test roster, and more emphasis was put on controlled, high-yield social structures.
 More and more planets were added to the project, its populations relocated, re-educated and re-assigned for a better turnout.
 The concepts of personal liberties and privacy became more and more secondary to the collective performance, and eventually were abandoned altogether by those who led the Project.
 
-The expansion and results of the Project led the then Emperor to promote Project Proteron from an Empire-commissioned Project to a full-fledged, independent Great House.
+The expansion and results of the Project led the Emperor to promote Project Proteron from an Empire-commissioned Project to a full-fledged, independent Great House.
 The philosophy was that House Proteron would eventually become a prototype for the New Empire, and once all the bugs were ironed out, its model would be implemented in the entire known galaxy and House Proteron would once again be part of the greater Empire.
 
 ### The Sovereign Proteron Autarchy and the Incident
@@ -92,16 +92,16 @@ But when the Proteron High Autarch delivered this message to the Emperor, he was
 Appalled at this reaction, the Circle concluded in an emergency meeting that [the Empire](lore/factions/empire) had no intention of honoring the original agreement, thereby forfeiting its claim to the loyalty of House Proteron.
 It was clear to the Circle that should [the Empire](lore/factions/empire) insist on trying to turn the Proteron into another Dvaered incident or, worse still, turning them into Empire systems, there could be no peace with them.
 
-Knowing that they could not at the time resist the entire might of [the Empire](lore/factions/empire)'s infrastructure, the Proteron decided to plant their agents in every major Imperial agency while publicly grovelling at [the Empire](lore/factions/empire)'s feet.
+Knowing that they could not at the time resist the entire might of [the Empire](lore/factions/empire)'s infrastructure, the Proteron decided to plant their agents in every major Imperial agency while publicly groveling at [the Empire](lore/factions/empire)'s feet.
 Soon enough, the Proteron were even in charge of [the Empire](lore/factions/empire)'s covert operations against the Proteron.
 Now having loosened their leash greatly, they set out to prepare for a galaxy-scale war.
 While they worked, the shape of the galaxy was changing, so to speak.
 
 New advances in quantum engineering led to the development of quantum transtators and translators, alternative travel engines capable of bypassing warp points and so changing conventional military doctrine, which recommended fortifying choke point systems on the warp network.
-Expecting correctly that [the Empire](lore/factions/empire) had not even thought of this change, the Proteron decided to bypass their defences using the new hypergate being built in Sol.
+Expecting correctly that [the Empire](lore/factions/empire) had not even thought of this change, the Proteron decided to bypass their defenses using the new hypergate being built in Sol.
 After all, once the Emperor and their successors were in their hands, the war would be essentially meaningless.
 They built a hypergate in secret in their home system, Protera.
-They seceded from Imperial authority as soon as the gate was built and moved a small fleet as a feint into the classical defences.
+They seceded from Imperial authority as soon as the gate was built and moved a small fleet as a feint into the classical defenses.
 When [the Empire](lore/factions/empire) took the bait, the Sovereign Proteron Autarchy, as they now styled themselves, sent the most massive fleet ever seen through their hypergate.
 
 Then [the Incident](lore/history/incident) occurred.
